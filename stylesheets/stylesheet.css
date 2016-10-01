@@ -16,7 +16,8 @@ a {
     text-decoration: underline; }
 
 .vid {
-  display: inline-block;
+  width = 75%
+  height = 30%;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0.08);
@@ -31,19 +32,19 @@ a {
 
 @media screen and (min-width: 64em) {
   .vid {
-    padding: 2rem 3rem; } }
+    padding: 0.75rem 1rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .vid {
     padding: 0.6rem 0.9rem;
-    font-size: 2rem; } }
+    font-size: 0.9rem; } }
 
 @media screen and (max-width: 42em) {
   .vid {
     display: block;
     width: 100%;
-    padding: 3rem;
-    font-size: 2rem; }
+    padding: 0.75rem;
+    font-size: 0.9rem; }
   .btn + .btn {
       margin-top: 1rem;
      margin-left: 0; } }
