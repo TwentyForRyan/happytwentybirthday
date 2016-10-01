@@ -16,7 +16,7 @@ a {
     text-decoration: underline; }
 
 .vid {
-  width = "75%"
+  width = "75%";
   height = "30%";
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
